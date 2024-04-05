@@ -1,0 +1,93 @@
+.inicio {
+  width: 100%;
+  height: 87vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 1.5rem 3rem;
+  user-select: none;
+}
+.inicio::before {
+  content: "";
+  background: rgba(2, 2, 2, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.inicio-container {
+  width: 100%;
+}
+
+.inicio__title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  text-transform: uppercase;
+}
+.inicio__title span {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+
+  text-transform: none;
+}
+.icons__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+.icon {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.icon span {
+  font-size: 2rem;
+  color: #fff;
+}
+.reactIcon {
+  color: #fff;
+  background-color: #ff0000;
+  padding: 0.5rem;
+  font-size: 3rem;
+  border-radius: 50%;
+  transition: transform 0.5s ease-in;
+}
+.reactIcon:hover {
+  transform: rotate(25deg);
+}
+#imagenFondo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-20%);
+  background-size: cover;
+  filter: blur(4px);
+}
+@media screen and (max-width: 450px) {
+.inicio__title{
+  font-size: 2.5rem;
+}
+}
+.

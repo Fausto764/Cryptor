@@ -1,0 +1,32 @@
+.informacionContenedor {
+  min-height: 100vh;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 2rem;
+}
+.informacion__h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+.informacion__p {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+@media screen and (max-width: 730px) {
+  .informacion__p {
+    font-size: 1.2rem;
+  }
+  .informacionContenedor {
+    padding: 1rem;
+    padding-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .informacion__h2 {
+    font-size: 2.5rem;
+  }
+}

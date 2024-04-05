@@ -14,13 +14,19 @@
   color: #fff;
   align-items: center;
 }
+.nav__ul__li__a span {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
 .nav__ul__li__a svg path {
   fill: #fff;
   font-size: 3rem;
 }
 .nav__ul__li__a svg {
   width: 1.5rem;
+  max-height: 2rem;
 }
+
 @media screen and (max-width: 750px) {
   .hide {
     position: absolute;
@@ -32,7 +38,7 @@
     justify-content: center;
     z-index: 0;
     opacity: 0;
-    transition: all 0.5s;
+    transition: all 0.8s;
   }
   .nav {
     left: 0;
@@ -40,13 +46,16 @@
     top: 6rem;
     transform: translateY(0);
     z-index: 0;
-    background-color: #000;
+    /* background-color: #212121; */
     width: 100%;
+    height: 98vh;
     display: flex;
     justify-content: center;
     font-size: 2rem;
     padding: 3rem;
     transition: all 0.5s ease;
+    background-color: #ff0000;
+    border-top: 1px solid #fff;
   }
   .nav__ul {
     display: flex;
