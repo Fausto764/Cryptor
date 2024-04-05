@@ -7,15 +7,13 @@ import "./App.css"
 //componentes
 import { Footer } from "./components/Footer/Footer.jsx"
 import { Header } from "./components/Header/Header.jsx"
-import Principal from "./Principal"
+import { Principal } from "./Principal"
 // import { FAQ } from "./pages/FAQ/FAQ"
 function App() {
   return (
     <>
       <Header />
-      <main>
-        <Principal />
-      </main>
+      <Principal />
       <Footer />
     </>
 

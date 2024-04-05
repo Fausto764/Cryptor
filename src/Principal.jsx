@@ -13,4 +13,4 @@ const Principal = () => {
     </main>
   )
 }
-export default Principal
+export { Principal }
