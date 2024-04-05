@@ -1,14 +1,23 @@
 //css
 import "./App.css"
-
+import { Contacto } from "./pages/Contacto/Contacto"
+import { Informacion } from "./pages/Informacion/Informacion"
+import { Inicio } from "./pages/Inicio/Inicio"
+import { Servicios } from "./pages/Servicios/Servicios"
 //componentes
+import { Header } from "./components/Header/Header.jsx"
 import { Footer } from "./components/Footer/Footer.jsx"
-import { Principal } from "./Principal"
 
 function App() {
   return (
     <>
-      <Principal />
+      <Header />
+      <main>
+        <Inicio />
+        <Informacion />
+        <Servicios />
+        <Contacto />
+      </main>
       <Footer />
     </>
   )
