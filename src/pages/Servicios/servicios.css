@@ -6,6 +6,7 @@
   flex-direction: column;
   gap: 2rem;
   padding-bottom: 10rem;
+    background-color: #fff;
 }
 .servicios__h3 {
   font-size: 3.5rem;
@@ -19,7 +20,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  background-color: #fff;
+
 }
 .card {
   position: relative;
