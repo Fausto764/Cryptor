@@ -14,7 +14,7 @@ const Footer = () => {
           <div className='footer-datos'>
             <span className='footer-email'>Email: telefonofg@gmail.com</span>{" "}
             <br />
-            <span className='footer-telefono'>Telefono: 13332424</span>
+            <span className='footer-telefono'>Telefono: 2236827806</span>
           </div>
         </div>
         <div className='footer-links'>
