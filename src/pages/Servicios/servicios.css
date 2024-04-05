@@ -88,14 +88,13 @@
     font-weight: 300;
     padding-left: 1rem;
   }
-  .card{
+  .card {
     height: 22rem;
   }
-  .front__span{
+  .front__span {
     height: 8rem;
   }
   .card .front__span {
     height: 6rem;
   }
-  }
-  .
+}
