@@ -6,11 +6,13 @@
   flex-direction: column;
   gap: 2rem;
   padding-bottom: 10rem;
+ 
 }
 .servicios__h3 {
   font-size: 3.5rem;
   font-weight: 300;
   padding-left: 4rem;
+     background-color: #fff;
 }
 .servicios__div {
   display: flex;
@@ -19,7 +21,8 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  background-color: #fff;
+     background-color: #fff;
+
 }
 .card {
   position: relative;
