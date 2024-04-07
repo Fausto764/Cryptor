@@ -9,17 +9,34 @@ const Contacto = () => {
       >
         <div className='form__div'>
           <div className='input'>
-            <label>Nombre</label>
-            <input type='text' name='name' required className='form__input' />
+            <label htmlFor='nombre'>Nombre</label>
+            <input
+              type='text'
+              id='nombre'
+              name='name'
+              required
+              className='form__input'
+            />
           </div>
           <div className='input'>
-            <label>Email</label>
-            <input type='mail' name='email' required className='form__input' />
+            <label htmlFor='correo'>Email</label>
+            <input
+              type='mail'
+              id='correo'
+              name='email'
+              required
+              className='form__input'
+            />
           </div>
         </div>
         <div className='input textarea-contenedor'>
-          <label>Mensaje</label>
-          <textarea className='textarea' name='textarea' required />
+          <label htmlFor='mensaje'>Mensaje</label>
+          <textarea
+            id='mensaje'
+            className='textarea'
+            name='textarea'
+            required
+          />
         </div>
         <div className='button-contenedor'>
           <button type='submit' className='form__button'>

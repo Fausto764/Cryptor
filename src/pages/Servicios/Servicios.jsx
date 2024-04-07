@@ -1,12 +1,6 @@
-import { useState } from "react"
 import { ServiciosData } from "../../data/serviciosData"
 import "./servicios.css"
 const Servicios = () => {
-  const [isFlipped, setIsFlipped] = useState(false)
-
-  const flipCard = () => {
-    setIsFlipped(!isFlipped)
-  }
   return (
     <section className='serviciosContenedor' id='servicios'>
       <h3 className='servicios__h3'>Servicios</h3>
@@ -18,7 +12,7 @@ const Servicios = () => {
                 <img
                   src={elemento.imagen}
                   className='front__img '
-                  alt={elemento.nombre}
+                  alt={elemento.alt}
                 />
 
                 <span className='front__span'>{elemento.nombre}</span>
