@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
 }
 input {
@@ -77,12 +78,14 @@ input {
 .contacto-text__h5 {
   font-size: 2.2rem;
   font-weight: 450;
+  text-align: center;
 }
 .contacto-text__p {
   font-size: 1.4rem;
   font-weight: 350;
+  text-align: center;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 775px) {
   .contacto {
     flex-direction: column-reverse;
     padding: 0;
@@ -94,8 +97,12 @@ input {
   .form__input {
     width: 13rem;
   }
+  .contacto-text {
+    width: 100%;
+    padding: 1rem;
+  }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .contacto {
     flex-direction: column-reverse;
     padding: 0;
@@ -106,5 +113,10 @@ input {
   } */
   .form__input {
     width: 7rem;
+  }
+}
+@media screen and (max-width: 485px) and (min-width: 350px) {
+  .form__input {
+    width: 8rem;
   }
 }

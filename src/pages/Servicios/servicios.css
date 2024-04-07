@@ -24,7 +24,7 @@
 .card {
   position: relative;
   width: 23rem;
-  height: 18rem;
+  height: 20rem;
 }
 .card .face {
   position: absolute;
@@ -97,5 +97,10 @@
   }
   .card .front__span {
     height: 6rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .card {
+    width: 40rem;
   }
 }
