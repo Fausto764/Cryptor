@@ -4,7 +4,7 @@ const Contacto = () => {
     <section className='contacto' id='contacto'>
       <form
         className='form'
-        action='https://formsubmit.co/fastcodee@gmail.com'
+        action='https://formsubmit.co/adm.cryptor@gmail.com'
         method='POST'
       >
         <div className='form__div'>
